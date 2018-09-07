@@ -15,6 +15,8 @@ execute pathogen#infect()
 " :helptags ~/.vim/bundle/ctrlp.vim/doc
 "
 " -- powerline --
+" use font Consolas NF
+" https://github.com/whitecolor/my-nerd-fonts
 " git clone https://github.com/powerline/powerline.git
 " mv powerline/powerline/bindings/vim ~/.vim/bundle/powerline
 "
