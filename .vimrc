@@ -3,7 +3,7 @@ execute pathogen#infect()
 "------- PathogenPlugins -----------
 " -- NerdTree --
 " git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
-autocmd VimEnter * NERDTree
+" autocmd VimEnter * NERDTree
 "
 " -- YouCompleteMe --
 " git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
@@ -42,12 +42,14 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 set autoread
-colorscheme dracula
 syntax on
+colorscheme Tomorrow-Night-Eighties
 set number
 set wildmenu
 set showcmd
-set guifont=Consolas:h11
+" set guifont=Consolas:h11
+" https://dejavu-fonts.github.io/
+" set guifont=DejaVuSansMono
 set list
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:·
 set wildignore+=**/node_modules/**,**/platforms/**,**/platform-tools/**,**/www/**,**/plugins/**,**/selenium/**,**/docs/**,**/lib/**
