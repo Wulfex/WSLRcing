@@ -32,6 +32,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']
+"let g:syntastic_javascript_eslint_exe = 'gulp lint --file .'
 "------- PathogenPlugins------------
 
 "------- CtrlP rtp ------------------
@@ -59,4 +61,3 @@ set wildignore+=**/node_modules/**,**/platforms/**,**/platform-tools/**,**/www/*
 "------- Powerline -------
 "set rtp+=/home/wulfex/powerline/powerline/bindings/vim/plugin/powerline.vim
 set laststatus=2
-
