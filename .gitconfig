@@ -1,0 +1,29 @@
+# This is Git's per-user configuration file.
+[core]
+  autocrlf = input
+  editor = nvim
+  excludesfile = /home/wulfex/.gitignore_global
+[user]
+# Please adapt and uncomment the following lines:
+  # name = Chad Baldwin
+  # email = cBaldwin@bovisync.com
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+[push]
+  default = simple
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[merge]
+  tool = vimdiff
+[mergetool]
+  prompt = true
+[mergetool "vimdiff"]
+  cmd = nvim -d $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
+

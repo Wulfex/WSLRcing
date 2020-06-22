@@ -1,0 +1,15 @@
+alias ls='ls -a --color=auto'
+
+# alias chromebeta='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome\ Beta/Application/chrome.exe --disable-web-security --profile-directory="Profile 1" --user-data-dir="/mnt/c/Users/Chad Baldwin/AppData/Local/Google/Chrome/User Data/Profile 1"'
+# alias chrome='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe --profile-directory="Profile 1" --disable-web-security --user-data-dir="/mnt/c/Users/Chad Baldwin/AppData/Local/Google/Chrome/User Data/Profile 1"'
+# alias chromeweb='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe --profile-directory="Profile 2" --disable-web-security --user-data-dir="/mnt/c/Users/Chad Baldwin/AppData/Local/Google/Chrome/User Data/Profile 2"'
+# alias canary='/mnt/c/Users/Chad\ Baldwin/AppData/Local/Google/Chrome\ SxS/Application/chrome.exe --disable-web-security --user-data-dir="/mnt/c/Users/Chad Baldwin/AppData/Local/Google/Chrome/User Data/Profile 1" --profile-directory="Profile 1"'
+alias exphere='explorer.exe .'
+alias pacmansyu='sudo apt update && sudo apt upgrade'
+
+alias gitup='git fetch ; git pull'
+alias grepjs='grep -rn --include \*.js --color=auto'
+alias grec='grep -R --exclude-dir=node_modules -rn --color=auto'
+alias ggrep='git grep'
+alias gstash='git stash save'
+alias weather='curl wttr.in/'
